@@ -1,0 +1,236 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 60px;
+	background-image:url(../img/background1.jpg);
+  }
+  
+  .masthead {
+	  position: relative;
+	  margin: 10px 10px 40px 10px;
+  }
+
+  /* Custom container */
+  .container {
+    margin: 0 auto;
+    max-width: 1000px;
+	background-color: #ffffff;
+  }
+  .container > hr {
+    margin: 60px 0;
+  }
+  .outline {
+	margin: 0 auto;
+	margin-bottom:20px;
+	max-width: 1000px;
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+  }
+
+  /* Main marketing message and sign up button */
+  .jumbotron {
+    margin: 80px 0;
+    text-align: center;
+  }
+  .jumbotron h1 {
+    font-size: 100px;
+    line-height: 1;
+  }
+  .jumbotron .lead {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+  .jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+
+  /* Supporting marketing content */
+  .marketing {
+    margin: 60px 0;
+  }
+  .marketing p + h4 {
+    margin-top: 28px;
+  }
+
+
+  /* Customize the navbar links to be fill the entire space of the .navbar */
+  .navbar .navbar-inner {
+    padding: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+  }
+  .navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+  }
+  .navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+  }
+  .navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255,255,255,.75);
+    border-right: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+  }
+  .navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+  }
+ 
+ /*iframe positioning*/
+ iframe {
+    display: block;
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    border: 0;
+}
+ 
+ /* Custom Pagination Bar*/
+ .pagination {
+margin: 20px 0;
+padding-top: 50px;
+}
+  
+/* Util nav */
+
+.util-nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.util-nav ul {
+	list-style: none;
+	padding: 0 5px 0 0;
+}
+
+.util-nav li {
+	border-left: 1px solid #000;
+	float: left;
+	margin: 0;
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+.util-nav li.first {
+	border-left: none;
+}
+
+
+.site-search {
+	float: right;
+	padding-top: 10px;
+}
+
+
+
+/* Footer items */
+
+.footer {
+	background: none;
+	color: #fff;
+	margin: 0 auto;
+	font-size:12px;
+	line-height: 14px;
+}
+
+.social {
+	text-align: right;
+	float: right;
+	padding-top: 0;
+}
+
+
+.footer-nav {
+	list-style: none;
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.footer-nav li {
+	border-left: 1px solid #9a9a9a;
+	float: left;
+	margin: 0;
+	padding: 0 12px;
+	font-size:12px;
+	line-height: 14px;
+}
+
+.footer-nav li.first {
+	border-left: none;
+	padding-left: 0;
+}
+
+.footer-nav a {
+	color: #9a9a9a;
+}
+
+.copyright {
+	float: left;
+	text-align: left;
+	margin: 0;
+ }
+
+/* Home carousel */
+
+#home-carousel .item {
+	height: 627px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#home-carousel .item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#home-carousel .item .carousel-caption {
+	z-index: 1;
+}
+
+/* display ad placeholders */
+
+.display-ads {
+	padding: 10px 0px 10px 0px;
+}
+
+.placeholders {
+	margin-top: 50px;
+}
+
+
+/* Shop content */
+
+.shop buttons {
+	margin-top: 30px;
+}
+
+.shop-listing form {
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+.shop-listing form select {
+	margin: 0;
+	vertical-align: middle;
+}
+
+.shop-listing form a {
+	margin: 0;
+	vertical-align: middle;
+}
+
